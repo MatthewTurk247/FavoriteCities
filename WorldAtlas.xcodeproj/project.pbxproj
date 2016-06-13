@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB2778101BA5C832000BF32D /* CredentialsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27780F1BA5C832000BF32D /* CredentialsTableViewController.swift */; };
+		EB4409DA1B563F200031E148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4409CF1B563F200031E148 /* AppDelegate.swift */; };
+		EB4409DB1B563F200031E148 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4409D01B563F200031E148 /* ViewController.swift */; };
+		EB4409DC1B563F200031E148 /* ContenentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4409D11B563F200031E148 /* ContenentTableViewController.swift */; };
+		EB4409DD1B563F200031E148 /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4409D21B563F200031E148 /* PlaceDetailViewController.swift */; };
+		EB4409DE1B563F200031E148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4409D31B563F200031E148 /* Main.storyboard */; };
+		EB4409DF1B563F200031E148 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4409D41B563F200031E148 /* PlaceTableViewCell.swift */; };
+		EB4409E01B563F200031E148 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4409D51B563F200031E148 /* Images.xcassets */; };
+		EB4409E11B563F200031E148 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4409D61B563F200031E148 /* LaunchScreen.xib */; };
+		EB4409E21B563F200031E148 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4409D71B563F200031E148 /* Place.swift */; };
+		EB4409E31B563F200031E148 /* Contenent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4409D81B563F200031E148 /* Contenent.swift */; };
+		EB4409E41B563F200031E148 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB4409D91B563F200031E148 /* Info.plist */; };
+		EB440A1A1B566FF30031E148 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB440A191B566FF30031E148 /* Info.plist */; };
+		EB440A1E1B5671650031E148 /* WorldAtlasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB440A1D1B5671650031E148 /* WorldAtlasTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB44099D1B563B8F0031E148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB44097F1B563B8E0031E148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4409861B563B8E0031E148;
+			remoteInfo = WorldAtlas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB27780F1BA5C832000BF32D /* CredentialsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialsTableViewController.swift; sourceTree = "<group>"; };
+		EB4409CE1B563F1F0031E148 /* WorldAtlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldAtlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4409CF1B563F200031E148 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		EB4409D01B563F200031E148 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		EB4409D11B563F200031E148 /* ContenentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContenentTableViewController.swift; path = ../ContenentTableViewController.swift; sourceTree = "<group>"; };
+		EB4409D21B563F200031E148 /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceDetailViewController.swift; path = ../PlaceDetailViewController.swift; sourceTree = "<group>"; };
+		EB4409D31B563F200031E148 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		EB4409D41B563F200031E148 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceTableViewCell.swift; path = ../PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		EB4409D51B563F200031E148 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		EB4409D61B563F200031E148 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../LaunchScreen.xib; sourceTree = "<group>"; };
+		EB4409D71B563F200031E148 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = ../Place.swift; sourceTree = "<group>"; };
+		EB4409D81B563F200031E148 /* Contenent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contenent.swift; path = ../Contenent.swift; sourceTree = "<group>"; };
+		EB4409D91B563F200031E148 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB440A161B566F0A0031E148 /* WorldAtlasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldAtlasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB440A191B566FF30031E148 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		EB440A1D1B5671650031E148 /* WorldAtlasTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldAtlasTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4409841B563B8E0031E148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4409991B563B8F0031E148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB44097E1B563B8E0031E148 = {
+			isa = PBXGroup;
+			children = (
+				EB4409E51B563F470031E148 /* WorldAtlas */,
+				EB440A201B5671DF0031E148 /* WorldAtlasTests */,
+				EB440A1F1B5671B20031E148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4409E51B563F470031E148 /* WorldAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				EB4409CF1B563F200031E148 /* AppDelegate.swift */,
+				EB4409D01B563F200031E148 /* ViewController.swift */,
+				EB4409D11B563F200031E148 /* ContenentTableViewController.swift */,
+				EB4409D21B563F200031E148 /* PlaceDetailViewController.swift */,
+				EB4409D31B563F200031E148 /* Main.storyboard */,
+				EB27780F1BA5C832000BF32D /* CredentialsTableViewController.swift */,
+				EB4409D41B563F200031E148 /* PlaceTableViewCell.swift */,
+				EB4409D51B563F200031E148 /* Images.xcassets */,
+				EB4409D61B563F200031E148 /* LaunchScreen.xib */,
+				EB440A191B566FF30031E148 /* Info.plist */,
+				EB4409D71B563F200031E148 /* Place.swift */,
+				EB4409D81B563F200031E148 /* Contenent.swift */,
+			);
+			name = WorldAtlas;
+			path = WorldAtlas.xcodeproj;
+			sourceTree = "<group>";
+		};
+		EB440A1F1B5671B20031E148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4409CE1B563F1F0031E148 /* WorldAtlas.app */,
+				EB440A161B566F0A0031E148 /* WorldAtlasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB440A201B5671DF0031E148 /* WorldAtlasTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB440A1D1B5671650031E148 /* WorldAtlasTests.swift */,
+				EB4409D91B563F200031E148 /* Info.plist */,
+			);
+			name = WorldAtlasTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4409861B563B8E0031E148 /* WorldAtlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4409A61B563B8F0031E148 /* Build configuration list for PBXNativeTarget "WorldAtlas" */;
+			buildPhases = (
+				EB4409831B563B8E0031E148 /* Sources */,
+				EB4409841B563B8E0031E148 /* Frameworks */,
+				EB4409851B563B8E0031E148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldAtlas;
+			productName = WorldAtlas;
+			productReference = EB4409CE1B563F1F0031E148 /* WorldAtlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB44099B1B563B8F0031E148 /* WorldAtlasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4409A91B563B8F0031E148 /* Build configuration list for PBXNativeTarget "WorldAtlasTests" */;
+			buildPhases = (
+				EB4409981B563B8F0031E148 /* Sources */,
+				EB4409991B563B8F0031E148 /* Frameworks */,
+				EB44099A1B563B8F0031E148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB44099E1B563B8F0031E148 /* PBXTargetDependency */,
+			);
+			name = WorldAtlasTests;
+			productName = WorldAtlasTests;
+			productReference = EB440A161B566F0A0031E148 /* WorldAtlasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB44097F1B563B8E0031E148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Turk;
+				TargetAttributes = {
+					EB4409861B563B8E0031E148 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EB44099B1B563B8F0031E148 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EB4409861B563B8E0031E148;
+					};
+				};
+			};
+			buildConfigurationList = EB4409821B563B8E0031E148 /* Build configuration list for PBXProject "WorldAtlas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB44097E1B563B8E0031E148;
+			productRefGroup = EB44097E1B563B8E0031E148;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4409861B563B8E0031E148 /* WorldAtlas */,
+				EB44099B1B563B8F0031E148 /* WorldAtlasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4409851B563B8E0031E148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4409E41B563F200031E148 /* Info.plist in Resources */,
+				EB4409DE1B563F200031E148 /* Main.storyboard in Resources */,
+				EB4409E11B563F200031E148 /* LaunchScreen.xib in Resources */,
+				EB440A1A1B566FF30031E148 /* Info.plist in Resources */,
+				EB4409E01B563F200031E148 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44099A1B563B8F0031E148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4409831B563B8E0031E148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4409DC1B563F200031E148 /* ContenentTableViewController.swift in Sources */,
+				EB4409DD1B563F200031E148 /* PlaceDetailViewController.swift in Sources */,
+				EB4409E31B563F200031E148 /* Contenent.swift in Sources */,
+				EB4409DB1B563F200031E148 /* ViewController.swift in Sources */,
+				EB2778101BA5C832000BF32D /* CredentialsTableViewController.swift in Sources */,
+				EB4409E21B563F200031E148 /* Place.swift in Sources */,
+				EB4409DA1B563F200031E148 /* AppDelegate.swift in Sources */,
+				EB4409DF1B563F200031E148 /* PlaceTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4409981B563B8F0031E148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB440A1E1B5671650031E148 /* WorldAtlasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB44099E1B563B8F0031E148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4409861B563B8E0031E148 /* WorldAtlas */;
+			targetProxy = EB44099D1B563B8F0031E148 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB4409A41B563B8F0031E148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB4409A51B563B8F0031E148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB4409A71B563B8F0031E148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WorldAtlas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB4409A81B563B8F0031E148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WorldAtlas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB4409AA1B563B8F0031E148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorldAtlasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldAtlas.app/WorldAtlas";
+			};
+			name = Debug;
+		};
+		EB4409AB1B563B8F0031E148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorldAtlasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldAtlas.app/WorldAtlas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4409821B563B8E0031E148 /* Build configuration list for PBXProject "WorldAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4409A41B563B8F0031E148 /* Debug */,
+				EB4409A51B563B8F0031E148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4409A61B563B8F0031E148 /* Build configuration list for PBXNativeTarget "WorldAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4409A71B563B8F0031E148 /* Debug */,
+				EB4409A81B563B8F0031E148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4409A91B563B8F0031E148 /* Build configuration list for PBXNativeTarget "WorldAtlasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4409AA1B563B8F0031E148 /* Debug */,
+				EB4409AB1B563B8F0031E148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB44097F1B563B8E0031E148 /* Project object */;
+}
